@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+#parent{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-direction: row;/*for aligning in ro and coloumn */
+    flex-wrap: wrap;/* this is used to wrap that is the child goes to  the next line automatically */
+}
+
+#child1{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child2{
+    height:200px;
+    width:200px;
+    background-color: rgb(21, 185, 18);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+#child3{
+    height:200px;
+    width:200px;
+    background-color: rgb(52, 15, 164);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child4{
+    height:200px;
+    width:200px;
+    background-color: rgb(93, 20, 82);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child5{
+    height:200px;
+    width:200px;
+    background-color: rgb(119, 215, 155);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child6{
+    height:200px;
+    width:200px;
+    background-color: rgb(225, 8, 8);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child7{
+    height:200px;
+    width:200px;
+    background-color: rgb(96, 16, 48);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child8{
+    height:200px;
+    width:200px;
+    background-color: rgb(21, 121, 154);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+#child9{
+    height:200px;
+    width:200px;
+    background-color: rgb(228, 217, 15);
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
