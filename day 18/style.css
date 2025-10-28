@@ -15,12 +15,32 @@ main{
     width: 100%;
     background-color: black;
     display:grid;
-    grid-template-columns: 100px minmax(100px, 400px) 100px;
-    grid-template-rows: 200px 1fr;
-    grid-gap: 10px;
-}
-.child{
-    background-color:crimson;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px ;
+    grid-gap:5px;
 
-    border: 3px solid white;
+    grid-template-areas: "header header"
+                          "aside section"
+                          "footer footer";
+}
+
+
+header{
+    background-color: grey;
+    grid-area: header;
+}
+
+aside{
+    background-color: red;
+    grid-area:aside;
+}
+
+section{
+    background-color:rgb(21, 29, 81);
+    grid-area: section;
+}
+
+footer{
+    background-color:  black;
+    grid-area:footer;
 }
