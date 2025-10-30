@@ -1,0 +1,58 @@
+@font-face{
+    font-family: kk;
+    src:url(./Vastine\ Personal\ Use\ Only.ttf);
+}
+@font-face{
+    font-family: d;
+    src:url(./Idiots.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height:100%;
+    width:100%;
+    background-color: rgb(220, 197, 171);
+}
+
+#nav{
+    height:60px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-family: kk;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    font-size: 9px;
+}
+.button{
+    display: flex;
+    gap: 25px;
+}
+
+#page1>div>h1{
+    font-size: 90px;
+    font-family: d;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    
+
+}
